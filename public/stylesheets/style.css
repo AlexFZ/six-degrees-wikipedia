@@ -1,0 +1,19 @@
+.links-container {
+  clear: both;
+  margin-top: 20px;
+}
+.link-list {
+  overflow-y: scroll;
+}
+.article-link {
+  cursor: pointer;
+}
+.article-link:hover {
+  background-color: #ddd;
+}
+.breadcrumb {
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 20px;
+}

@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  p Welcome to #{title}
+  input.input.article-input.faded(type="text", value="Enter an article title")
+  button.btn.submit-btn Get Links
+  div.links-container
+  script(type='text/javascript', src='/javascripts/controller.js')
