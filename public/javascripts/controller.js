@@ -62,6 +62,7 @@ var displayLinks = function(links, originatingArticleTitle) {
 
 var getLinks = function(articleTitle) {
     $.ajax({
+        type: "POST",
         url: '/getLinkTitlesInArticle',
         data: {'articleTitle': articleTitle},
     })
